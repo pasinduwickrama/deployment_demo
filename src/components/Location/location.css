@@ -1,0 +1,617 @@
+.location{
+    background-color: #1E1F25;
+    color: white;
+    width: 390px;
+    height: 825px;
+    border-radius: 20px;
+    background-color: var(--svg-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.header-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header-location button{
+    margin-left: 0px;
+    padding: 0.5px 0px;
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    background-color: #3C4254;
+    border: #3C4254;
+    
+    border-radius: 5px;
+    color: #757B8C;
+}
+.header-location h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.list-flg{
+    padding: 10px 20px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+.list-flg samp{
+    padding: 0px 10px;
+}
+.sa2{
+    position: relative;
+    right: 15px;
+}
+.sa3{
+    position: relative;
+    left: 50px;
+    color: #3C4254;
+}
+.sa4{
+    position: relative;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+.visa-heade{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+ 
+    justify-content: space-around;
+}
+
+.visa-im{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 1px;
+    
+}
+.bb{
+    height: 180px;
+    width: 440px;
+    position: relative;
+   right: 20px;
+    top: 10px;
+    
+}
+.visa-heade button{
+    margin-left: 0px;
+    padding: 0.5px 0px;
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    background-color: #3C4254;
+    border: #3C4254;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    color: #757B8C;
+    position: relative;
+    left: 22px;
+}
+
+.visa-heade h4{
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    right: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.rate-header h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 20px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.l-ba{
+    background-color: #282C38;
+    height: 2px;
+    width: 335px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 30px;
+}
+
+.footer-bar{
+    
+    width: 65%;
+    position: relative;
+    left: 75px;
+    bottom: 10px;
+}
+
+.lo-foter h3{
+    display: flex;
+    background-color: aqua;
+    position: relative;
+    bottom: 800px;
+    color: rgb(201, 40, 40);
+    font-family: 'Inter', sans-serif;
+}
+
+[data-theme="dark"] {
+    --background: #1E1F25;
+    --dark-blue: #8eecf5;
+    --light-blue: #1E1F25;
+    --ocean-blue: #12131d;
+    --blue-background: #23262D;
+    --card-color: #ffffff;
+    --card-color2: #12131d;
+    --red: #1E1F25;
+    --svg-color: #1E1F25;
+    --elevate-shadow: rgba(32, 29, 233, 0.637) 0px 25px 50px -12px;
+  }
+  @media screen and (max-width: 1680px) {
+    .location{
+        
+       
+        width: 440px;
+        height: 765px;
+      
+    }
+
+    .header-location{
+        
+        padding: 20px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 16px;
+       
+    }
+    .list-flg{
+        padding: 20px 10px 5px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 0px;
+    }
+   
+    
+    
+    
+    
+   
+    .bb{
+        height: 170px;
+        width: 250px;
+        
+       right: -25px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 20px;
+       
+    }
+    .rate-header h2{
+        font-size: 25px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .location{
+        
+       
+        width: 360px;
+        height: 765px;
+      
+    }
+
+    .header-location{
+        
+        padding: 20px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 16px;
+       
+    }
+    .list-flg{
+        padding: 20px 10px 5px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 0px;
+    }
+   
+    
+    
+    
+    
+   
+    .bb{
+        height: 170px;
+        width: 250px;
+        
+       right: -25px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 20px;
+       
+    }
+    .rate-header h2{
+        font-size: 25px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+  }
+  
+@media screen and (max-width: 1280px) {
+    .location{
+        
+       
+        width: 330px;
+        height: 625px;
+      
+    }
+
+    .header-location{
+        
+        padding: 10px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 16px;
+       
+    }
+    .list-flg{
+        padding: 10px 0px 0px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 0px;
+    }
+    .l-ba{
+        background-color: #282C38;
+        height: 2px;
+        width: 335px;
+        margin-bottom: 15px;
+        position: relative;
+        left: -5px;
+    }
+    
+    
+    
+    
+   
+    .bb{
+        height: 150px;
+        width: 250px;
+        
+       right: -25px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 15px;
+       
+    }
+    .rate-header h2{
+        font-size: 20px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+}
+   @media Screen and (max-width: 900px) {
+
+    .location{
+        
+       
+        width: 390px;
+    height: 825px;
+      
+    }
+
+    .header-location{
+        
+        padding: 30px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 20px;
+       
+    }
+    .list-flg{
+        padding: 10px 10px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 20px;
+    }
+    .sa4{
+        
+        left: 25px;
+       
+        
+        
+    }
+    
+    
+    
+    
+   
+    .bb{
+        height: 180px;
+        width: 440px;
+        position: relative;
+       right: 20px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 20px;
+       
+    }
+    .rate-header h2{
+        font-size: 20px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+    
+    
+
+   }
+
+   @media screen and (max-width: 720px) {
+    .location{
+        
+       
+        width: 360px;
+        height: 825px;
+      
+    }
+
+    .header-location{
+        
+        padding: 30px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 20px;
+       
+    }
+    .list-flg{
+        padding: 10px 10px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 20px;
+    }
+    .sa4{
+        
+        left: 25px;
+       
+        
+        
+    }
+    
+    
+    
+    
+   
+    .bb{
+       
+       right: 50px;      
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 12px;
+       
+    }
+    .rate-header h2{
+        font-size: 15px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+    
+    
+
+   
+  
+  }
+  @media screen and  (max-width: 393px) {
+    
+  }
+  @media screen and (max-width: 360px) {
+    .location{
+        
+       
+        width: 330px;
+        height: 825px;
+      
+    }
+
+    .header-location{
+        
+        padding: 30px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 20px;
+       
+    }
+    .list-flg{
+        padding: 10px 0px 10px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 0px;
+    }
+   
+    
+    
+    
+    
+   
+    .bb{
+        height: 180px;
+        width: 250px;
+        
+       right: -25px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 15px;
+       
+    }
+    .rate-header h2{
+        font-size: 20px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+   
+  }
+
+  @media screen and (max-width: 320px) {
+    .location{
+        
+       
+        width: 300px;
+        height: 825px;
+      
+    }
+
+    .header-location{
+        
+        padding: 30px 10px;
+    }
+
+   
+    .header-location h2{
+        font-size: 20px;
+       
+    }
+    .list-flg{
+        padding: 10px 0px 10px;
+      
+    }
+    
+   
+    .sa2{
+        position: relative;
+        right: 0px;
+    }
+   
+    
+    
+    
+    
+   
+    .bb{
+        height: 180px;
+        width: 250px;
+        
+       right: -25px;
+        top: 10px;
+        
+    }
+   
+    
+    .visa-heade h4{
+        font-size: 15px;
+       
+    }
+    .rate-header h2{
+        font-size: 20px;
+      
+    }
+    
+   
+    .footer-bar{
+        
+        width: 60%;
+       
+    }
+   
+  }

@@ -1,0 +1,53 @@
+.ca2{
+    width: 380px;
+    height: 820px;
+    border-radius: 20px;
+    color: white;
+    background-color: #1E1F25;
+    background-color: var(--svg-color);
+}
+
+.name h3{
+    color: #ffffff;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+
+.one-img p{
+    position: relative;
+    bottom: 60px;
+    right: -80px;
+    padding: 0px 0px 0px 0px;
+   
+}
+
+.two-img p{
+    position: relative;
+    bottom: 60px;
+    right: -80px;
+    padding: 0px 0px 0px 0px;
+   
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.list{
+ display: flex;
+ flex-direction: column;
+}
+
+.ca-hearder{
+    position: relative;
+    top: -500px;
+    right: -30px;
+    color: white;
+}

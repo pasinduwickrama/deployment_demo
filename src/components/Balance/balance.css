@@ -1,0 +1,276 @@
+.Balance{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 200px;
+    
+    
+   
+    
+
+   
+       
+   
+    
+}
+.left ul li{
+    list-style: none;
+    
+   
+}
+.tt1{
+ font-size: 15px;
+ font-weight: 500;
+ color: #3C4254;
+ padding-bottom: 5px;
+}
+.tt2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    position: relative;
+    top: 1px;
+    color: var(--card-color);
+}
+.tt3{
+    font-size: 17px;
+    font-weight: 500;
+    color: #246CF9;
+    position: relative;
+    top: 10px;
+}
+.icon{
+    width: 90px;
+    position: relative;
+    left: 120px;
+    top: -1px;
+    
+   
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1F25; 
+    color: white; 
+    border-radius: 20px; 
+    margin: 10px ;
+    padding: 8px 0px;
+    background-color: var(--background);
+    
+   
+    
+
+   
+}
+ 
+
+[data-theme="dark"] {
+    --background: #1E1F25;
+    --dark-blue: #8eecf5;
+    --light-blue: #4895ef;
+    --ocean-blue: #12131d;
+    --blue-background: #23262D;
+    --card-color: #ffffff;
+    --card-color2: #12131d;
+    --red: #12131d;
+    --svg-color: #8eecf5;
+    --elevate-shadow: rgba(32, 29, 233, 0.637) 0px 25px 50px -12px;
+  }
+  @media screen and (max-width: 1680px) {
+    .Balance{
+       
+        width: 325px;              
+    }
+    .icon{
+        width: 70px;
+        position: relative;
+        left: 65px;
+        top: 0px;
+        
+       
+    }
+    .tt1{
+        font-size: 12px;
+        font-weight: 500;
+       
+       }
+       .tt2{
+           font-size: 10px;
+           font-weight: 400;
+         
+       }
+       .tt3{
+           font-size: 10px;
+           font-weight: 400;
+       }
+  }
+  @media screen and (max-width: 1400px) {
+    .Balance{
+       
+        width: 305px;              
+    }
+    .icon{
+        width: 70px;
+        position: relative;
+        left: 65px;
+        top: 0px;
+        
+       
+    }
+    .tt1{
+        font-size: 10px;
+        font-weight: 500;
+       
+       }
+       .tt2{
+           font-size: 10px;
+           font-weight: 400;
+         
+       }
+       .tt3{
+           font-size: 10px;
+           font-weight: 400;
+       }
+
+  }
+  @media screen and (max-width: 1280px) {
+    .Balance{
+       
+        width: 305px;              
+    }
+    .icon{
+        width: 70px;
+        position: relative;
+        left: 65px;
+        top: 0px;
+        
+       
+    }
+    .tt1{
+        font-size: 10px;
+        font-weight: 500;
+       
+       }
+       .tt2{
+           font-size: 10px;
+           font-weight: 400;
+         
+       }
+       .tt3{
+           font-size: 10px;
+           font-weight: 400;
+       }
+  }
+  @media screen and (max-width: 1200px) {
+    .Balance{
+       
+        width: 450px;              
+    }
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 155px;
+        top: 0px;
+        
+       
+    }
+    .tt1{
+        font-size: 15px;
+        font-weight: 500;
+    
+       }
+       .tt2{
+           font-size: 17px;
+           font-weight: 500;
+        
+       }
+       .tt3{
+           font-size: 17px;
+           font-weight: 500;
+          
+       }
+  }
+  @media screen and (max-width: 834px) {
+    .Balance{
+       
+        width: 450px;              
+    }
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 155px;
+        top: 0px;
+        
+       
+    }
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        right: 1200px;
+       top: 60px;
+        
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .Balance{
+       
+        width: 390px;      
+        
+    }
+
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 90px;
+        top: -1px;
+        
+       
+    }
+  }
+  @media screen and  (max-width: 393px) {
+    .Balance{
+       
+        width: 360px;              
+    }
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 75px;
+        top: 0px;
+        
+       
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .Balance{
+       
+        width: 340px;              
+    }
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 55px;
+        top: 0px;
+        
+       
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .Balance{
+       
+        width: 320px;              
+    }
+    .icon{
+        width: 90px;
+        position: relative;
+        left: 35px;
+        top: 0px;
+        
+       
+    }
+  }

@@ -1,0 +1,725 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    
+    height: 990px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--blue-background);
+}
+.topbar-home{
+    position: relative;
+    left: 430px;
+    top: 0px;
+}
+.sidebar-home{
+    position: relative;
+    right: 1400px;
+    top: 20px;
+   
+}
+.chart-home{
+    border-radius: 20px;
+    height: 470px;
+    position: relative;
+    right: 1350px;
+    top: 120px;
+    
+}
+.balance-home{
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    right: 2360px;
+    top: 560px;
+    
+}
+.team-home{
+    
+    border-radius: 20px;
+    height: 40vh;
+    position: relative;
+    right: 2365px;
+    top: 570px;
+}
+.loca-home{
+  
+ 
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    right: 2350px;
+    top: 120px;
+}
+
+
+[data-theme="light"] {
+    --background: rgb(107, 206, 176);
+    --dark-blue: #8eecf5;
+    --light-blue: #4895ef;
+    --ocean-blue: #12131d;
+    --blue-background: #ffffff;
+    --card-color: #12131d;
+    --card-color2: #12131d;
+    --red: #12131d;
+    --svg-color: #8eecf5;
+    --elevate-shadow: rgba(32, 29, 233, 0.637) 0px 25px 50px -12px;
+  }
+
+  @media screen and (max-width: 1680px) {
+    .home{
+     
+        
+        height: 1040px;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .topbar-home{
+        position: relative;
+        left: 450px;
+        top: 60px;
+
+    }
+   
+    .sidebar-home{
+        
+        right: 1150px;
+        top: 70px;
+       
+    }
+
+    .chart-home{
+       
+        height: 470px;
+        
+        right: 1125px;
+        top: 190px;
+        
+    }
+    .loca-home{
+  
+ 
+       
+        height: 400px;
+       
+        right: 1810px;
+        top: 190px;
+    }
+    .balance-home{
+       
+        right: 1837px;
+        top: 650px;
+        
+    }
+    .team-home{
+        
+      
+        right: 1825px;
+        top: 660px;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .home{
+     
+        
+        height: 1040px;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .topbar-home{
+        position: relative;
+        left: 360px;
+        top: 60px;
+
+    }
+   
+    .sidebar-home{
+        
+        right: 980px;
+        top: 70px;
+       
+    }
+
+    .chart-home{
+       
+        height: 470px;
+        
+        right: 935px;
+        top: 190px;
+        
+    }
+    .loca-home{
+  
+ 
+       
+        height: 400px;
+       
+        right: 1580px;
+        top: 190px;
+    }
+    .balance-home{
+       
+        right: 1557px;
+        top: 650px;
+        
+    }
+    .team-home{
+        
+      
+        right: 1575px;
+        top: 660px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .home{
+     
+        
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .topbar-home{
+        position: relative;
+        left: 320px;
+        top: 0px;
+    }
+   
+    .sidebar-home{
+        
+        right: 942px;
+        top: 20px;
+       
+    }
+
+    .chart-home{
+       
+        height: 470px;
+        
+        right: 935px;
+        top: 100px;
+        
+    }
+    .loca-home{
+  
+ 
+       
+        height: 400px;
+       
+        right: 1580px;
+        top: 100px;
+    }
+    .balance-home{
+       
+        right: 1557px;
+        top: 420px;
+        
+    }
+    .team-home{
+        
+      
+        right: 1575px;
+        top: 430px;
+    }
+  }
+
+  @media screen and (max-width: 1114px) {
+    .home{
+        display: flex;
+        height: 1350px;
+       
+    }
+    .topbar-home{
+        display: none;
+    }
+
+    .sidebar-home{
+        position: relative;
+        right: 15px;
+        top: 0px;
+       
+    }
+
+    .chart-home{
+       
+       
+        position: relative;
+        right: 1100px;
+     
+       top: 90px;
+       
+    }
+
+    .balance-home{
+      
+        right: 1750px;
+        top: 530px;
+        
+    }
+    .team-home{
+        
+       
+        right: 1850px;
+        top: 970px;
+    }
+
+    .loca-home{
+  
+ 
+       
+        right: 1850px;
+        top: 90px;
+    }
+        
+    
+    
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .home{
+       
+        flex-direction: column;
+        justify-content: center;
+           
+      }
+
+     
+   
+    
+    
+  }
+
+  @media screen and (max-width: 834px) {
+    .sidebar-home{
+        right: -1px;
+        top: -455px;
+        
+     }
+
+     .topbar-home{
+       display: none;
+        
+    }
+    .balance-home{
+       
+        position: relative;
+        right: 835px;
+        top: 10px;
+        
+    }
+
+    .team-home{
+        
+        position: relative;
+        right: 1350px;
+       top: 420px;
+     
+    }
+
+    .loca-home{
+        position: relative;
+        left: 15px; 
+       
+    }
+    .chart-home{
+       
+        position: relative;
+       right: -22px;        
+    }
+    
+
+  
+  
+    
+}
+
+@media screen and (max-width: 834px) {
+    
+    
+
+    .home{
+      
+        
+        height: 2590px;
+       
+    }
+    .topbar-home{
+        display: none;
+        
+    }
+    
+   
+    .balance-home{
+       
+        position: relative;
+        left: 180px;
+        top: -390px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: -50px;
+       top: -390px;
+     
+    }
+
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 30px;
+     
+        
+    }
+
+    .sidebar-home{
+        right: -1px;
+        top: -390px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -42px;  
+       top: -360px;      
+    }
+    
+  
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    
+
+    .home{
+      
+        
+        height: 2590px;
+       
+    }
+    .topbar-home{
+        display: none;
+        
+    }
+    
+   
+    .balance-home{
+       
+        position: relative;
+        left: 160px;
+        top: -390px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: -50px;
+       top: -390px;
+     
+    }
+
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 30px;
+     
+        
+    }
+
+    .sidebar-home{
+        right: -1px;
+        top: -380px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -22px;  
+       top: -360px;      
+    }
+    
+  
+    
+}
+@media screen and  (max-width: 768px) {
+    .home{
+      
+        
+        height: 2590px;
+       
+    }
+    .topbar-home{
+        display: none;
+        
+    }
+    
+   
+    .balance-home{
+       
+        position: relative;
+        left: 160px;
+        top: -450px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: -50px;
+       top: -440px;
+     
+    }
+
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 30px;
+        top: -440px;
+     
+        
+    }
+
+    .sidebar-home{
+        right: -1px;
+        top: -430px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -10px;  
+       top: -410px;      
+    }
+}
+  @media screen and  (max-width: 720px) {
+    
+    .home{
+      
+        
+        height: 2590px;
+       
+    }
+    .topbar-home{
+        display: none;
+        
+    }
+    
+   
+    .balance-home{
+       
+        position: relative;
+        left: 10px;
+        top: -470px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: 3px;
+       top: -470px;
+     
+    }
+
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 30px;
+     
+        
+    }
+
+    .sidebar-home{
+        right: -1px;
+        top: -455px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -22px;  
+       top: -440px;      
+    }
+    
+    
+  
+    
+}
+@media screen and  (max-width: 393px) {
+    .home{
+      
+        
+        height: 2590px;
+       
+    }
+    .balance-home{
+       
+        position: relative;
+        left: 20px;
+        top: -475px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: -5px;
+       top: -470px;
+     
+    }
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 15px;
+        top: -460px;   
+        
+    }
+    .sidebar-home{
+        right: -1px;
+        top: -470px;
+        
+     }
+
+     .chart-home{
+       
+        position: relative;
+       right: -12px;  
+       top: -450px;      
+    }
+    
+
+   
+    
+}
+
+@media screen and  (max-width: 375px) {
+    .sidebar-home{
+        right: -1px;
+        top: -490px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -1px;  
+       top: -470px;      
+    }
+    .balance-home{
+       
+        position: relative;
+        left: 5px;
+        top: -505px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: 5px;
+       top: -510px;
+     
+    }
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 10px;
+        top: -660px;   
+        
+    }
+}
+
+@media screen and  (max-width: 360px) {
+    .sidebar-home{
+        right: -1px;
+        top: -480px;
+        
+     }
+     .chart-home{
+       
+        position: relative;
+       right: -10px;  
+       top: -470px;      
+    }
+    .balance-home{
+       
+        position: relative;
+        left: 5px;
+        top: -505px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: 5px;
+       top: -510px;
+     
+    }
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 10px;
+        top: -660px;   
+        
+    }
+}
+@media screen and  (max-width: 320px) {
+    
+    .home{
+      
+        
+        height: 2090px;
+       
+    }
+    .chart-home{
+       
+        position: relative;
+       right: -10px;  
+       top: -260px;      
+    }
+    .balance-home{
+       
+        position: relative;
+        left: 1px;
+        top: -300px;
+        
+    }
+    .team-home{
+        
+        position: relative;
+       right: 10px;
+       top: -300px;
+     
+    }
+
+    .loca-home{
+  
+ 
+       
+        position: relative;
+        left: 10px;
+        top: -300px;
+     
+        
+    }
+    .sidebar-home{
+        right: -1px;
+        top: -280px;
+        
+     }
+    
+}

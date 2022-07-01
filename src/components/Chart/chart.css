@@ -1,0 +1,537 @@
+.chart{
+    background-color: #1E1F25;
+    color: white;
+    border-radius: 20px;
+    padding: 60px 10px;
+    height: 430px;
+    width: 1000px;
+    background-color: var(--svg-color);
+    font-family: 'Inter', sans-serif;
+}
+.row{
+    position: relative;
+    bottom: 30px;
+}
+
+.line{
+    position: relative;
+    bottom: 30px;
+}
+.mo {
+    display: flex;
+    flex-direction: row;
+}
+.btn-group{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+}
+
+.chart-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 300px;
+    position: relative;
+    right: 295px;
+}
+.chart-footer button{
+   
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(48, 224, 161, 0.2);
+    color: #30E0A1;
+    border: none;
+   position: relative;
+   top: 10px;
+}
+
+.chart-footer p{
+    position: relative;
+    top: 15px;
+}
+
+.chart-footer h1{
+    position: relative;
+    bottom: 10px;
+
+    
+}
+.rediogroup{
+    display: flex;
+    flex-direction: row;
+    
+}
+.radio-1{
+    background-color: rgb(0, 110, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+.radio-2{
+    background-color: rgb(255, 0, 0);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
+    right: 10px;
+
+}
+
+
+:root {
+    --blue-background: #caf0f8;
+    --ocean-blue: #48cae4;
+    --dark-blue: #03045e;
+    --light-blue: #304a58;
+    --red: #f94144;
+    --blue: #0466c8;
+    --transition: 0.5s ease-in-out;
+    --fixed-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --elevate-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    --background: white;
+    --card-color: rgb(241, 240, 240);
+    --card-color2: white;
+    --svg-color: black;
+  }
+
+[data-theme="dark"] {
+    --background: #1E1F25;
+    --dark-blue: #8eecf5;
+    --light-blue: #1E1F25;
+    --ocean-blue: #12131d;
+    --blue-background: #23262D;
+    --card-color: #ffffff;
+    --card-color2: #12131d;
+    --red: #12131d;
+    --svg-color: #8eecf5;
+    --elevate-shadow: rgba(32, 29, 233, 0.637) 0px 25px 50px -12px;
+  }
+  @media screen and (max-width: 1680px) {
+    .chart{
+    
+        height: 450px;
+        width: 700px;
+    
+    }
+   
+    
+    .row{
+    
+        bottom: 30px;
+    }
+    
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
+    .mo {
+       
+        position: relative;
+        right: 140px;
+        top: 0px;
+        padding: 0px 00px;
+    }
+    .btn-group{
+        width: 100px;
+        height: 2px;
+        
+        position: relative;
+        right: 0px;
+        top: 20px;
+        
+    }
+    
+    .chart-footer{
+      padding: 10px 100px;
+      right: 80px;
+      top: -100px;
+    }
+    .chart-footer button{
+       
+        width: 70px;
+      
+    }
+    
+    .chart-footer p{
+        position: relative;
+        font-size: 12px;
+        top: 1px;
+        padding: 10px 0px;
+    }
+    
+    .chart-footer h1{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px;
+    
+        
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .chart{
+    
+        height: 450px;
+        width: 610px;
+    
+    }
+   
+    
+    .row{
+    
+        bottom: 30px;
+    }
+    
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
+    .mo {
+       
+        position: relative;
+        right: 140px;
+        top: 0px;
+        padding: 0px 00px;
+    }
+    .btn-group{
+        width: 100px;
+        height: 2px;
+        
+        position: relative;
+        right: 0px;
+        top: 20px;
+        
+    }
+    
+    .chart-footer{
+      padding: 10px 100px;
+      right: 80px;
+      top: -100px;
+    }
+    .chart-footer button{
+       
+        width: 70px;
+      
+    }
+    
+    .chart-footer p{
+        position: relative;
+        font-size: 12px;
+        top: 1px;
+        padding: 10px 0px;
+    }
+    
+    .chart-footer h1{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px;
+    
+        
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .chart{
+    
+        height: 320px;
+        width: 610px;
+    
+    }
+   
+    
+    .row{
+    
+        bottom: 30px;
+    }
+    
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
+    .mo {
+       
+        position: relative;
+        right: 140px;
+        top: 0px;
+        padding: 0px 00px;
+    }
+    .btn-group{
+        width: 100px;
+        height: 2px;
+        
+        position: relative;
+        right: 0px;
+        top: 20px;
+        
+    }
+    
+    .chart-footer{
+      padding: 10px 100px;
+      right: 80px;
+      top: -100px;
+    }
+    .chart-footer button{
+       
+        width: 70px;
+      
+    }
+    
+    .chart-footer p{
+        position: relative;
+        font-size: 12px;
+        top: 1px;
+        padding: 10px 0px;
+    }
+    
+    .chart-footer h1{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px;
+    
+        
+    }
+  }
+
+@media screen and (max-width: 1114px) {
+    .chart{
+    
+        height: 430px;
+        width: 670px;
+    
+    }
+   
+    
+    .row{
+    
+        bottom: 30px;
+    }
+    
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
+    .mo {
+       
+        position: relative;
+        right: 140px;
+        top: 5px;
+        padding: 0px 00px;
+    }
+    .btn-group{
+        width: 100px;
+        height: 2px;
+        
+        position: relative;
+        right: 0px;
+        top: 20px;
+        
+    }
+    
+    .chart-footer{
+      padding: 10px 100px;
+      right: 80px;
+    }
+    .chart-footer button{
+       
+        width: 70px;
+      
+    }
+    
+    .chart-footer p{
+        position: relative;
+        font-size: 12px;
+        top: 1px;
+        padding: 10px 0px;
+    }
+    
+    .chart-footer h1{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px;
+    
+        
+    }
+   
+}
+
+@media screen and (max-width: 834px) {
+    .chart{
+    
+        height: 430px;
+        width: 750px;
+    
+    }
+   
+    
+    .row{
+    
+        bottom: 30px;
+    }
+    
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
+    .mo {
+       
+        position: relative;
+        right: 140px;
+        top: 5px;
+        padding: 0px 00px;
+    }
+    .btn-group{
+        width: 100px;
+        height: 2px;
+        
+        position: relative;
+        right: 0px;
+        top: 20px;
+        
+    }
+    
+    .chart-footer{
+      padding: 10px 100px;
+      right: 80px;
+    }
+    .chart-footer button{
+       
+        width: 70px;
+      
+    }
+    
+    .chart-footer p{
+        position: relative;
+        font-size: 12px;
+        top: 1px;
+        padding: 10px 0px;
+    }
+    
+    .chart-footer h1{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px;
+    
+        
+    }
+   
+   
+    
+   
+    
+   
+   
+    
+}
+@media screen and (max-width: 720px) {
+  .chart{
+    position: relative;
+    display: flex;
+    height: 430px;
+    width: 370px;
+  
+    
+  }
+
+  .row{
+    
+    bottom: 30px;
+}
+
+.line{
+    position: relative;
+    bottom: 10px;
+}
+.mo {
+   
+    position: relative;
+    right: 140px;
+    top: 55px;
+    padding: 0px 00px;
+}
+.btn-group{
+    width: 100px;
+    height: 2px;
+    
+    position: relative;
+    right: 100px;
+    top: -40px;
+    
+}
+
+.chart-footer{
+  padding: 10px 100px;
+  right: 80px;
+}
+.chart-footer button{
+   
+    width: 70px;
+  
+}
+
+.chart-footer p{
+    position: relative;
+    font-size: 12px;
+    top: 1px;
+    padding: 10px 0px;
+}
+
+.chart-footer h1{
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+
+    
+}
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .chart{
+        position: relative;
+        display: flex;
+        height: 430px;
+        width: 340px;
+      
+        
+      }
+
+      .btn-group{
+        right: 120px;
+       
+        
+    }
+    .chart-footer{
+        padding: 10px 100px;
+        right: 100px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .chart{
+        position: relative;
+        display: flex;
+        height: 430px;
+        width: 300px;
+      
+        
+      }
+
+      .btn-group{
+        right: 160px;
+       
+        
+    }
+    .chart-footer{
+        padding: 10px 100px;
+        right: 110px;
+      }
+}

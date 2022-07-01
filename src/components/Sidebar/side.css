@@ -1,0 +1,599 @@
+.d-icon{
+    padding: 10px 50px;
+}
+
+.sidenav{
+    background-color: #1E1F25;
+    color: white;
+    border-radius: 20px;
+    height: 930px;
+    width: 349px;
+    background-color: var(--svg-color);
+    font-family: 'Inter', sans-serif;
+   
+    
+}
+.logo-h{
+    padding: 15px 30px;
+    
+}
+.logo-h img{
+    padding: 5px 0px;
+   height: 40px;
+}
+.t{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.p{
+    display: none;
+}
+.pp{
+    display: none;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    
+    
+   
+    
+}
+.butt:hover{
+    background-color: #282C38;
+}
+
+
+.bas li{
+    list-style: none;
+   margin: 10px;
+   font-size: 16px;
+   font-weight: 400; 
+   cursor: pointer;
+   font-family: 'Inter', sans-serif;
+}
+
+.t5{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.t6{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer{
+    background-color: #282C38;
+    width: 349px;
+    height: 110px;
+  border-radius: 20px;
+   
+}
+.pic{
+    position: relative;
+    bottom: -30px;
+    left: 30px;
+
+}
+
+.ap{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+.name1{
+    color: #3C4254;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.name{
+    
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.counter {
+    width: 25px;
+    height: 20px;
+    background-color: red;
+    border-radius: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 520px;
+    right: 40px;
+  }
+  
+[data-theme="dark"] {
+    --background: #1E1F25;
+    --dark-blue: #8eecf5;
+    --light-blue: #1E1F25;
+    --ocean-blue: #12131d;
+    --blue-background: #1E1F25;
+    --card-color: #1E1F25;
+    --card-color2: #1E1F25;
+    --red: #1E1F25;
+    --svg-color: #1E1F25;
+    --elevate-shadow: #1E1F25;
+  }
+
+  @media screen and (max-width: 1680px) {
+    .sidenav{
+        
+        height: 880px;
+        width: 400px;
+       
+        
+    }
+    .logo-h{
+        padding: 15px 20px;
+        
+    }
+    .bas li{
+        margin: 1px;
+        font-size: 25px;
+        font-weight: 100; 
+       
+     }
+     
+     .t5{
+         padding: 5px 30px;
+         font-size: 30px;
+         font-weight: 400;
+     }
+     .t6{
+         padding: 10px 30px;
+         font-size: 30px;
+         font-weight: 400;
+     }
+     .footer{
+        
+         width: 320px;
+         height: 110px;
+       
+     }
+    
+     
+     .ap{
+        
+         bottom: 20px;
+        
+     }
+     .name1{
+         
+         font-size: 15px;
+         font-weight: 400;
+       
+     }
+     .name{
+         
+         font-size: 15px;
+         font-weight: 400;
+      
+     }
+     .counter {
+    
+         top: 480px;
+         right: 40px;
+       }
+  }
+  @media screen and (max-width: 1400px) {
+    .sidenav{
+        
+        height: 880px;
+        width: 320px;
+       
+        
+    }
+    .logo-h{
+        padding: 15px 20px;
+        
+    }
+    .bas li{
+        margin: 1px;
+        font-size: 25px;
+        font-weight: 100; 
+       
+     }
+     
+     .t5{
+         padding: 5px 30px;
+         font-size: 30px;
+         font-weight: 400;
+     }
+     .t6{
+         padding: 10px 30px;
+         font-size: 30px;
+         font-weight: 400;
+     }
+     .footer{
+        
+         width: 320px;
+         height: 110px;
+       
+     }
+    
+     
+     .ap{
+        
+         bottom: 20px;
+        
+     }
+     .name1{
+         
+         font-size: 15px;
+         font-weight: 400;
+       
+     }
+     .name{
+         
+         font-size: 15px;
+         font-weight: 400;
+      
+     }
+     .counter {
+    
+         top: 480px;
+         right: 40px;
+       }
+    
+  }
+  @media screen and (max-width: 1280px) {
+
+    .sidenav{
+        
+        height: 710px;
+        width: 300px;
+       
+        
+    }
+    .logo-h{
+        padding: 15px 10px;
+        
+    }
+    .bas li{
+        margin: 1px;
+        font-size: 12px;
+        font-weight: 100; 
+       
+     }
+     
+     .t5{
+         padding: 5px 30px;
+         font-size: 12px;
+         font-weight: 400;
+     }
+     .t6{
+         padding: 10px 30px;
+         font-size: 12px;
+         font-weight: 400;
+     }
+     .footer{
+        
+         width: 300px;
+         height: 110px;
+       
+     }
+    
+     
+     .ap{
+        
+         bottom: 20px;
+        
+     }
+     .name1{
+         
+         font-size: 12px;
+         font-weight: 400;
+       
+     }
+     .name{
+         
+         font-size: 12px;
+         font-weight: 400;
+      
+     }
+     .counter {
+    
+         top: 380px;
+         right: 40px;
+       }
+    
+}
+  @media screen and (max-width: 1114px) {
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 1130px;
+        border-radius: 0px;
+      
+       
+        
+    }
+    .hr{
+        display: none;
+    }
+    .logo-h{
+      
+        
+    }
+    .logo-h img{
+        
+    }
+    .l2{
+        display: none;
+    }
+    
+    .t{
+       display: none;
+    }
+    .e{
+        display: none;
+    }
+    .p{
+    display: flex;
+    margin-left: 900px;
+    position: relative;
+    bottom: 40px;
+    }
+
+    .pp{
+        
+        margin-left: 900px;
+        position: relative;
+        bottom: 80px;
+        }
+    
+    .bas{
+        display: none;
+        
+    }
+    
+    .bas li{
+        display: none;
+    }
+    
+    .t5{
+        display: none;
+    }
+    .t6{
+        display: none;
+    }
+    .footer{
+        display: none;
+       
+    }
+    .pic{
+        display: none;
+    
+    }
+    
+    .ap{
+        display: none;
+    }
+    .name1{
+        display: none;
+    }
+    .name{
+        
+       display: none;
+    }
+    .counter {
+       display: none;
+      }
+    
+  }
+  @media screen and (max-width: 834px) {
+
+    .d-icon{
+        display: none;
+    }
+    
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 830px;
+        border-radius: 0px;
+      
+       
+        
+    }
+    .hr{
+        display: none;
+    }
+    .logo-h{
+      
+        
+    }
+    .logo-h img{
+        
+    }
+    .l2{
+        display: none;
+    }
+    
+    
+    
+    .bas{
+        display: none;
+        
+    }
+    
+    .bas li{
+        display: none;
+    }
+    
+    .t5{
+        display: none;
+    }
+    .t6{
+        display: none;
+    }
+    .footer{
+        display: none;
+       
+    }
+    .pic{
+        display: none;
+    
+    }
+    
+    .ap{
+        display: none;
+    }
+    .name1{
+        display: none;
+    }
+    .name{
+        
+       display: none;
+    }
+    .counter {
+       display: none;
+      }
+    
+    
+  }
+  @media screen and (max-width: 800px) {
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 800px;
+        border-radius: 0px;
+      
+       
+        
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 410px;
+        border-radius: 0px;
+      
+       
+        
+    }
+  }
+  @media screen and  (max-width: 393px) {
+    .d-icon{
+        display: none;
+    }
+    
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 390px;
+        border-radius: 0px;
+      
+       
+        
+    }
+    .hr{
+        display: none;
+    }
+    .logo-h{
+      
+        
+    }
+    .logo-h img{
+        
+    }
+    .l2{
+        display: none;
+    }
+    
+    
+    
+    .bas{
+        display: none;
+        
+    }
+    
+    .bas li{
+        display: none;
+    }
+    
+    .t5{
+        display: none;
+    }
+    .t6{
+        display: none;
+    }
+    .footer{
+        display: none;
+       
+    }
+    .pic{
+        display: none;
+    
+    }
+    
+    .ap{
+        display: none;
+    }
+    .name1{
+        display: none;
+    }
+    .name{
+        
+       display: none;
+    }
+    .counter {
+       display: none;
+      }
+    
+  }
+  @media screen and (max-width: 360px) {
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 355px;
+        border-radius: 0px;
+      
+       
+        
+    }
+    
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .sidenav{
+        
+       
+       
+        height: 80px;
+        width: 320px;
+        border-radius: 0px;
+      
+       
+        
+    }
+    
+  }

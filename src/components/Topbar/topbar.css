@@ -1,0 +1,508 @@
+
+.navbar{
+    background-color: #1E1F25;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    height: 80px;
+    width: 1430px;
+    display: flex;
+    background-color: var(--background);
+    font-family: 'Inter', sans-serif;
+    
+}
+.t-bar1{
+    background-color: #282C38;
+    height: 30px;
+    width: 2px;
+    position: relative;
+    right: 70px;
+}
+.t-bar2{
+    background-color: #282C38;
+    height: 35px;
+    width: 2px;
+    position: relative;
+    left: 110px;
+}
+.t-bar3{
+    background-color: #282C38;
+    height: 35px;
+    width: 2px;
+    position: relative;
+    left: 10px;
+}
+
+
+.t1{
+   position: relative;
+   left: 1px;
+   bottom: 20px;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.t2{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.t3{
+    font-size: 18px;
+    color: #3C4254;
+}
+.folder{
+    display: flex;
+    position: relative;
+    right: 140px;
+    top: 15px;
+    
+}
+.d-flex{
+    width: 300px;
+    position: relative;
+    left: 155px;
+    
+}
+
+.form-control{
+    background-color: #3C4254;
+    border-color: #282C38;
+}
+.icon{
+list-style: none;
+display: flex;
+
+
+
+}
+.icon li{
+    padding: 10px;
+    position: relative;
+right: 100px;
+top: 10px;
+}
+
+.star{
+    background-color:  rgba(40, 44, 56, 1); 
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    list-style: none;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+.star li{
+    padding: 0px 10px;
+    position: relative;
+    right: 30px;
+    bottom: 1px;
+    color: #FFB545;
+
+}
+.f{
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1680px) {
+    .navbar{
+     
+        margin-top: 10px;
+        height: 100px;
+        width: 1180px;
+      
+        
+    }
+    .t-bar1{
+        
+        height: 24px;
+        width: 2px;
+        
+        right: 40px;
+    }
+    .t-bar2{
+        
+        height: 24px;
+        width: 2px;
+       
+        left: 110px;
+    }
+    .t-bar3{
+        
+        height: 24px;
+        width: 2px;
+      
+        left: 10px;
+    }
+    
+    
+    .t1{
+      
+       left: -5px;
+      
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    .t2{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .t3{
+        font-size: 12px;
+        color: #3C4254;
+    }
+    .folder{
+        display: flex;
+        position: relative;
+        right: 70px;
+        top: 10px;
+        
+    }
+    .d-flex{
+        width: 200px;
+        position: relative;
+        left: 40px;
+        
+    }
+    
+    .form-control{
+        background-color: #3C4254;
+        border-color: #282C38;
+    }
+    .icon{
+    list-style: none;
+    display: flex;
+    
+    
+    
+    }
+    .icon li{
+        padding: 10px;
+        position: relative;
+    right: 100px;
+    top: 10px;
+    }
+    
+    .star{
+        background-color:  rgba(40, 44, 56, 1); 
+        
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 130px;
+        list-style: none;
+        position: relative;
+        right: 30px;
+        top: 10px;
+    }
+    .star li{
+        padding: 0px 10px;
+        position: relative;
+        right: 30px;
+        bottom: 1px;
+        color: #FFB545;
+    
+    }
+    .f{
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .navbar{
+     
+        margin-top: 10px;
+        height: 100px;
+        width: 1000px;
+      
+        
+    }
+    .t-bar1{
+        
+        height: 24px;
+        width: 2px;
+        
+        right: 40px;
+    }
+    .t-bar2{
+        
+        height: 24px;
+        width: 2px;
+       
+        left: 110px;
+    }
+    .t-bar3{
+        
+        height: 24px;
+        width: 2px;
+      
+        left: 10px;
+    }
+    
+    
+    .t1{
+      
+       left: -5px;
+      
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    .t2{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .t3{
+        font-size: 12px;
+        color: #3C4254;
+    }
+    .folder{
+        display: flex;
+        position: relative;
+        right: 70px;
+        top: 10px;
+        
+    }
+    .d-flex{
+        width: 200px;
+        position: relative;
+        left: 40px;
+        
+    }
+    
+    .form-control{
+        background-color: #3C4254;
+        border-color: #282C38;
+    }
+    .icon{
+    list-style: none;
+    display: flex;
+    
+    
+    
+    }
+    .icon li{
+        padding: 10px;
+        position: relative;
+    right: 100px;
+    top: 10px;
+    }
+    
+    .star{
+        background-color:  rgba(40, 44, 56, 1); 
+        
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 130px;
+        list-style: none;
+        position: relative;
+        right: 30px;
+        top: 10px;
+    }
+    .star li{
+        padding: 0px 10px;
+        position: relative;
+        right: 30px;
+        bottom: 1px;
+        color: #FFB545;
+    
+    }
+    .f{
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    .navbar{
+     
+        margin-top: 10px;
+        height: 80px;
+        width: 950px;
+      
+        
+    }
+    .t-bar1{
+        
+        height: 24px;
+        width: 2px;
+        
+        right: 40px;
+    }
+    .t-bar2{
+        
+        height: 24px;
+        width: 2px;
+       
+        left: 110px;
+    }
+    .t-bar3{
+        
+        height: 24px;
+        width: 2px;
+      
+        left: 10px;
+    }
+    
+    
+    .t1{
+      
+       left: -5px;
+      
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    .t2{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .t3{
+        font-size: 12px;
+        color: #3C4254;
+    }
+    .folder{
+        display: flex;
+        position: relative;
+        right: 70px;
+        top: 10px;
+        
+    }
+    .d-flex{
+        width: 200px;
+        position: relative;
+        left: 40px;
+        
+    }
+    
+    .form-control{
+        background-color: #3C4254;
+        border-color: #282C38;
+    }
+    .icon{
+    list-style: none;
+    display: flex;
+    
+    
+    
+    }
+    .icon li{
+        padding: 10px;
+        position: relative;
+    right: 100px;
+    top: 10px;
+    }
+    
+    .star{
+        background-color:  rgba(40, 44, 56, 1); 
+        
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 130px;
+        list-style: none;
+        position: relative;
+        right: 30px;
+        top: 10px;
+    }
+    .star li{
+        padding: 0px 10px;
+        position: relative;
+        right: 30px;
+        bottom: 1px;
+        color: #FFB545;
+    
+    }
+    .f{
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .navbar{
+      
+        display: none;
+          
+      }
+      .t-bar1{
+         display: none;
+      }
+      .t-bar2{
+          display: none;
+      }
+      .t-bar3{
+          display: none;
+      }
+      .t1{
+          display: none;
+       }
+       .t2{
+          display: none;
+       }
+       .t3{
+          display: none;
+       }
+      
+      .folder{
+          display: none;
+          
+      }
+      
+}
+
+@media screen and (min-width: 280px) and (max-width: 720px) {
+    .navbar{
+      
+      display: none;
+        
+    }
+    .t-bar1{
+       display: none;
+    }
+    .t-bar2{
+        display: none;
+    }
+    .t-bar3{
+        display: none;
+    }
+    .t1{
+        display: none;
+     }
+     .t2{
+        display: none;
+     }
+     .t3{
+        display: none;
+     }
+    
+    .folder{
+        display: none;
+        
+    }
+    
+        
+}
+
+[data-theme="dark"] {
+    --background: #1E1F25;
+    --dark-blue: #8eecf5;
+    --light-blue: #4895ef;
+    --ocean-blue: #12131d;
+    --blue-background: #23262D;
+    --card-color: #ffffff;
+    --card-color2: #12131d;
+    --red: #12131d;
+    --svg-color: #8eecf5;
+    --elevate-shadow: rgba(32, 29, 233, 0.637) 0px 25px 50px -12px;
+  }
+
