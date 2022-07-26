@@ -140,7 +140,351 @@ export default function Sidebar() {
 
             <div className='footer'>
 
-           
+            </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+                </div>
+            <hr className='hr'/>
+            
+            <div className='nav-item'>
+            <Link to="/">
+                <div className='butt'>
+                <ul className='bas'>
+                   
+                    <li><img src={Vector2} /></li>
+                    <li >Dashboard</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="project">
+                <div className='butt'>
+                <ul className='bas'>
+                
+                    <li><img src={Vector5} /></li>
+                    <li>Projects</li>
+                    
+                </ul>
+                </div>
+                </Link>
+                <Link to="Calendar">
+                <div className='butt'>
+                <ul className='bas'>
+                    <li><img src={Vector6} /></li>
+                    <li>Calendar</li>
+                </ul>
+                </div>
+                </Link>
+
+                <ul className='bas'>
+                    <li><img src={Vector7} /></li>
+                    <li>Documents</li>
+                </ul>
+
+                <ul className='bas'>
+                    <li><img src={Vector8} /></li>
+                    <li>Store</li>
+                </ul>
+
+              
      
       <div className='row1'>
       
@@ -157,7 +501,67 @@ export default function Sidebar() {
       </div>
      
        
-       
+      <img src={Vector14}  alt="" width='60px' height='60px'/>
+        </div>
+        <div className='col ap'>
+        <h6 className='name' >
+        Adam Simpson
+      </h6>
+      <p className='name1'>Simpson2@mail.com</p>
+        </div>
+      </div>
+     
+      <img src={Vector14}  alt="" width='60px' height='60px'/>
+        </div>
+        <div className='col ap'>
+        <h6 className='name' >
+        Adam Simpson
+      </h6>
+      <p className='name1'>Simpson2@mail.com</p>
+        </div>
+      </div>
+     
+      <img src={Vector14}  alt="" width='60px' height='60px'/>
+      </div>
+      <div className='col ap'>
+      <h6 className='name' >
+      Adam Simpson
+    </h6>
+    <p className='name1'>Simpson2@mail.com</p>
+      </div>
+    </div>
+   
+    <img src={Vector14}  alt="" width='60px' height='60px'/>
+    </div>
+    <div className='col ap'>
+    <h6 className='name' >
+    Adam Simpson
+  </h6>
+  <p className='name1'>Simpson2@mail.com</p>
+    </div>
+  </div>
+ 
+  <img src={Vector14}  alt="" width='60px' height='60px'/>
+  </div>
+  <div className='col ap'>
+  <h6 className='name' >
+  Adam Simpson
+</h6>
+<p className='name1'>Simpson2@mail.com</p>
+  </div>
+</div>
+
+<img src={Vector14}  alt="" width='60px' height='60px'/>
+</div>
+<div className='col ap'>
+<h6 className='name' >
+Adam Simpson
+</h6>
+<p className='name1'>Simpson2@mail.com</p>
+</div>
+</div>
+
+
      
       
     

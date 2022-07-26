@@ -40,6 +40,87 @@ function Calendar() {
            
           </div>
 
+          <Sidebar />
+          </div>
+
+          <div className='chart-home'>
+            
+            <Big />
+          </div>
+
+          <div className='balance-home'>
+            
+          </div>
+          
+          <div className='team-home'>
+           
+          </div>
+
+<Sidebar />
+          </div>
+
+          <div className='chart-home'>
+            
+            <Big />
+          </div>
+
+          <div className='balance-home'>
+            
+          </div>
+          
+          <div className='team-home'>
+           
+          </div>
+
+<Sidebar />
+          </div>
+
+          <div className='chart-home'>
+            
+            <Big />
+          </div>
+
+          <div className='balance-home'>
+            
+          </div>
+          
+          <div className='team-home'>
+           
+          </div>
+
+<Sidebar />
+          </div>
+
+          <div className='chart-home'>
+            
+            <Big />
+          </div>
+
+          <div className='balance-home'>
+            
+          </div>
+          
+          <div className='team-home'>
+           
+          </div>
+
+<Sidebar />
+          </div>
+
+          <div className='chart-home'>
+            
+            <Big />
+          </div>
+
+          <div className='balance-home'>
+            
+          </div>
+          
+          <div className='team-home'>
+           
+          </div>
+
+
           <div className='loca-home'>
           <Nomal />
           </div>

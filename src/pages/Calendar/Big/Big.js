@@ -50,12 +50,7 @@ export default function Big() {
 
   return (
     <div >
-           
-            <Calendar className="react-calendar"
-            localizer={localizer} 
-            events={allEvents} 
-            startAccessor="start" 
-            endAccessor="end" 
+
             
             style={{ height:"820px", margin: "5px"
             }}

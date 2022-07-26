@@ -13,8 +13,12 @@ function App() {
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<div><Home /></div>} />
-    
-    <Route path="Calendar" element={<div><Calendar /></div>} />
+     
+    <Route path="Calendar" element={<div><Calendar /></div>} 
+    <Route path="Calendar" element={<div><Calendar /></div>} 
+    <Route path="Calendar" element={<div><Calendar /></div>} 
+    <Route path="Calendar" element={<div><Calendar /></div>} 
+    <Route path="Calendar" element={<div><Calendar /></div>} 
    </Routes>
    </BrowserRouter>
   );

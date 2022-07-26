@@ -70,3 +70,263 @@ export default function Topbar({ changeTheme, currentTheme }) {
     </div>
   )
 }
+
+<div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}   <div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}   <div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}   <div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}   <div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}   <div >
+
+<ul className='folder'>
+<samp><HiFolderRemove size={30} style={style} /></samp>
+<p className='t2'>Adam’s Team</p>
+<p className='dropdown-toggle t3'>Folder</p> 
+</ul> 
+
+</div>
+
+<div>
+<form class="d-flex ">
+<input class="form-control me-2 f" type="search" placeholder="Search" aria-label="Search"   />
+
+</form>
+
+</div>
+<div className='t-bar2'></div>
+<ul className='icon'>
+    <li ><img src={Vector17} />
+    
+    
+    </li>
+    
+    <li onClick={changeTheme}>{currentTheme === "dark" ? (<img src={Vector18} />
+     ) : (
+      <ImSun className="sun" />
+    )}
+    </li>
+
+</ul>
+<div className='t-bar3'></div>
+
+<div>
+    <ul className='star'>
+        <li><BsStarHalf /></li>
+        <li>PREMIUM</li>
+    </ul>
+
+</div>
+</nav>
+</div>
+)
+}

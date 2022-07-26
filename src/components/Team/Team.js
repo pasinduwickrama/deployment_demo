@@ -119,7 +119,511 @@ const Team =() => {
                       
                                 
                     
-
+                     id:1,
+            image:logo1,
+            name:'Silvestor Ananas',
+            bar:(
+                <ProgressBar completed={65}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted"
+                labelClassName="label"
+                
+                />
+            ),
+            count:'420',
+        },
+        {
+            id:2,
+            image:logo2,
+            name:'Amanda Rouge',
+            count:'411',
+            bar:(
+                <ProgressBar completed={55}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted1"
+                labelClassName="label1"
+                />
+            ),
+        },
+        {
+            id:3,
+            image:logo3,
+            name:'Adam Dinner',
+            count:'25',
+            bar:(
+                <ProgressBar completed={41}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted2"
+                labelClassName="label2"
+                />
+            ),
+        },
+        {
+            id:4,
+            image:logo4,
+            name:'Isabella Bean',
+            count:'6',
+            bar:(
+                <ProgressBar completed={99}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted3"
+                labelClassName="label3"
+                />
+            ),
+        },
+        {
+            id:5,
+            image:logo5,
+            name:'Robby Adams',
+            count:'53',
+            bar:(
+                <ProgressBar completed={62}
+               
+                
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted4"
+                labelClassName="label4"
+    
+                
+    
+                id:1,
+                image:logo1,
+                name:'Silvestor Ananas',
+                bar:(
+                    <ProgressBar completed={65}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted"
+                    labelClassName="label"
+                    
+                    />
+                ),
+                count:'420',
+            },
+            {
+                id:2,
+                image:logo2,
+                name:'Amanda Rouge',
+                count:'411',
+                bar:(
+                    <ProgressBar completed={55}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted1"
+                    labelClassName="label1"
+                    />
+                ),
+            },
+            {
+                id:3,
+                image:logo3,
+                name:'Adam Dinner',
+                count:'25',
+                bar:(
+                    <ProgressBar completed={41}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted2"
+                    labelClassName="label2"
+                    />
+                ),
+            },
+            {
+                id:4,
+                image:logo4,
+                name:'Isabella Bean',
+                count:'6',
+                bar:(
+                    <ProgressBar completed={99}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted3"
+                    labelClassName="label3"
+                    />
+                ),
+            },
+            {
+                id:5,
+                image:logo5,
+                name:'Robby Adams',
+                count:'53',
+                bar:(
+                    <ProgressBar completed={62}
+                   
+                    
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted4"
+                    labelClassName="label4"
+        
+                    
+        
+                    id:1,
+            image:logo1,
+            name:'Silvestor Ananas',
+            bar:(
+                <ProgressBar completed={65}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted"
+                labelClassName="label"
+                
+                />
+            ),
+            count:'420',
+        },
+        {
+            id:2,
+            image:logo2,
+            name:'Amanda Rouge',
+            count:'411',
+            bar:(
+                <ProgressBar completed={55}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted1"
+                labelClassName="label1"
+                />
+            ),
+        },
+        {
+            id:3,
+            image:logo3,
+            name:'Adam Dinner',
+            count:'25',
+            bar:(
+                <ProgressBar completed={41}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted2"
+                labelClassName="label2"
+                />
+            ),
+        },
+        {
+            id:4,
+            image:logo4,
+            name:'Isabella Bean',
+            count:'6',
+            bar:(
+                <ProgressBar completed={99}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted3"
+                labelClassName="label3"
+                />
+            ),
+        },
+        {
+            id:5,
+            image:logo5,
+            name:'Robby Adams',
+            count:'53',
+            bar:(
+                <ProgressBar completed={62}
+               
+                
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted4"
+                labelClassName="label4"
+    
+                
+    
+                id:1,
+                image:logo1,
+                name:'Silvestor Ananas',
+                bar:(
+                    <ProgressBar completed={65}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted"
+                    labelClassName="label"
+                    
+                    />
+                ),
+                count:'420',
+            },
+            {
+                id:2,
+                image:logo2,
+                name:'Amanda Rouge',
+                count:'411',
+                bar:(
+                    <ProgressBar completed={55}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted1"
+                    labelClassName="label1"
+                    />
+                ),
+            },
+            {
+                id:3,
+                image:logo3,
+                name:'Adam Dinner',
+                count:'25',
+                bar:(
+                    <ProgressBar completed={41}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted2"
+                    labelClassName="label2"
+                    />
+                ),
+            },
+            {
+                id:4,
+                image:logo4,
+                name:'Isabella Bean',
+                count:'6',
+                bar:(
+                    <ProgressBar completed={99}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted3"
+                    labelClassName="label3"
+                    />
+                ),
+            },
+            {
+                id:5,
+                image:logo5,
+                name:'Robby Adams',
+                count:'53',
+                bar:(
+                    <ProgressBar completed={62}
+                   
+                    
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted4"
+                    labelClassName="label4"
+        
+                    
+        
+                    id:1,
+            image:logo1,
+            name:'Silvestor Ananas',
+            bar:(
+                <ProgressBar completed={65}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted"
+                labelClassName="label"
+                
+                />
+            ),
+            count:'420',
+        },
+        {
+            id:2,
+            image:logo2,
+            name:'Amanda Rouge',
+            count:'411',
+            bar:(
+                <ProgressBar completed={55}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted1"
+                labelClassName="label1"
+                />
+            ),
+        },
+        {
+            id:3,
+            image:logo3,
+            name:'Adam Dinner',
+            count:'25',
+            bar:(
+                <ProgressBar completed={41}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted2"
+                labelClassName="label2"
+                />
+            ),
+        },
+        {
+            id:4,
+            image:logo4,
+            name:'Isabella Bean',
+            count:'6',
+            bar:(
+                <ProgressBar completed={99}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted3"
+                labelClassName="label3"
+                />
+            ),
+        },
+        {
+            id:5,
+            image:logo5,
+            name:'Robby Adams',
+            count:'53',
+            bar:(
+                <ProgressBar completed={62}
+               
+                
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted4"
+                labelClassName="label4"
+    
+                
+    
+                id:1,
+                image:logo1,
+                name:'Silvestor Ananas',
+                bar:(
+                    <ProgressBar completed={65}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted"
+                    labelClassName="label"
+                    
+                    />
+                ),
+                count:'420',
+            },
+            {
+                id:2,
+                image:logo2,
+                name:'Amanda Rouge',
+                count:'411',
+                bar:(
+                    <ProgressBar completed={55}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted1"
+                    labelClassName="label1"
+                    />
+                ),
+            },
+            {
+                id:3,
+                image:logo3,
+                name:'Adam Dinner',
+                count:'25',
+                bar:(
+                    <ProgressBar completed={41}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted2"
+                    labelClassName="label2"
+                    />
+                ),
+            },
+            {
+                id:4,
+                image:logo4,
+                name:'Isabella Bean',
+                count:'6',
+                bar:(
+                    <ProgressBar completed={99}
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted3"
+                    labelClassName="label3"
+                    />
+                ),
+            },
+            {
+                id:5,
+                image:logo5,
+                name:'Robby Adams',
+                count:'53',
+                bar:(
+                    <ProgressBar completed={62}
+                   
+                    
+                    className="wrapper"
+                    barContainerClassName="containerr"
+                    completedClassName="barCompleted4"
+                    labelClassName="label4"
+        
+                    
+        
+                    id:1,
+            image:logo1,
+            name:'Silvestor Ananas',
+            bar:(
+                <ProgressBar completed={65}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted"
+                labelClassName="label"
+                
+                />
+            ),
+            count:'420',
+        },
+        {
+            id:2,
+            image:logo2,
+            name:'Amanda Rouge',
+            count:'411',
+            bar:(
+                <ProgressBar completed={55}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted1"
+                labelClassName="label1"
+                />
+            ),
+        },
+        {
+            id:3,
+            image:logo3,
+            name:'Adam Dinner',
+            count:'25',
+            bar:(
+                <ProgressBar completed={41}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted2"
+                labelClassName="label2"
+                />
+            ),
+        },
+        {
+            id:4,
+            image:logo4,
+            name:'Isabella Bean',
+            count:'6',
+            bar:(
+                <ProgressBar completed={99}
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted3"
+                labelClassName="label3"
+                />
+            ),
+        },
+        {
+            id:5,
+            image:logo5,
+            name:'Robby Adams',
+            count:'53',
+            bar:(
+                <ProgressBar completed={62}
+               
+                
+                className="wrapper"
+                barContainerClassName="containerr"
+                completedClassName="barCompleted4"
+                labelClassName="label4"
+    
+                
+    
+                            
 
                                    
                </div>

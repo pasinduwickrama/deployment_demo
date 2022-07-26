@@ -14,13 +14,14 @@
 .one{
     display: flex;
     flex-direction: row;
+   
   
    
 }
 
 .one-img p{
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
     right: -80px;
     padding: 0px 0px 0px 0px;
    
@@ -28,7 +29,7 @@
 
 .two-img p{
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
     right: -80px;
     padding: 0px 0px 0px 0px;
    
@@ -43,6 +44,9 @@
 .list{
  display: flex;
  flex-direction: column;
+ position: relative;
+ top: 20px;
+ right: 20px;
 }
 
 .ca-hearder{
